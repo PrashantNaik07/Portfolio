@@ -186,9 +186,23 @@ body{
     text-align:center;
 }
 
-.contact p{
-    margin:8px 0;
-    font-size:18px;
+/* SOCIAL ICONS */
+.social-icons{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.social-icons a{
+    font-size:36px;
+    color:white;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#38bdf8;
+    transform:scale(1.2);
 }
 
 /* FOOTER */
